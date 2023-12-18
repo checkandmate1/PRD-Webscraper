@@ -84,6 +84,7 @@ func scraper() {
 		if flight.Route == AircraftRoute {
 			Number = Number + 1000
 			fmt.Println("Correct Route!")
+			main()
 		} else {
 			Number = Number - 1
 			correctRoutes = append(correctRoutes, flight)
@@ -93,6 +94,7 @@ func scraper() {
 	}
 	if Number < 0 {
 		fmt.Println("Incorrect Route. These are the correct ones: \n", correctRoutes)
+		main()
 	}
 
 	
