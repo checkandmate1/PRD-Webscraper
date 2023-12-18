@@ -1,4 +1,4 @@
-"Little project I've worked on to learn web scraping, and what better way to do it than to check some routes! 
+Little project I've worked on to learn web scraping, and what better way to do it than to check some routes! 
 
 Thank you to the Virtual New York ARTCC (nyartcc.org) for providing their preferred route database! 
 
