@@ -1,4 +1,4 @@
-module github.com/checkandmate0/NyArtccRouteFinder
+module github.com/checkandmate0/PRD-Webscraper
 
 go 1.21.4
 
