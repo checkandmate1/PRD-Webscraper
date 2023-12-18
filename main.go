@@ -23,22 +23,39 @@ import (
 		if checkOrDisplay == "1" {
 			fmt.Println("Input Departure")
 		fmt.Scanln(&DepartureAirport)
+		if DepartureAirport == "end" {
+			os.Exit(0)
+		}
 		fmt.Println("Input Arrival")
 		fmt.Scanln(&ArrivalAirport)
+		if ArrivalAirport == "end" {
+			os.Exit(0)
+		}
 		fmt.Println("Input Route")
 		scanner := bufio.NewScanner(os.Stdin)
 		if scanner.Scan() {
 			AircraftRoute = scanner.Text()
+		}
+		if AircraftRoute == "end" {
+			os.Exit(0)
 		}
 		fmt.Println("Working...")
 		checkRoute()
 		} else if checkOrDisplay == "2" {
 			fmt.Println("Input Departure")
 		fmt.Scanln(&DepartureAirport)
+		if DepartureAirport == "end" {
+			os.Exit(0)
+		}
 		fmt.Println("Input Arrival")
 		fmt.Scanln(&ArrivalAirport)
+		if ArrivalAirport == "end" {
+			os.Exit(0)
+		}
 		fmt.Println("Working...")
 		displayRoutes()
+		} else if checkOrDisplay == "end" {
+			os.Exit(0)
 		} else {
 			fmt.Println("Invalid Choice")
 			main()
