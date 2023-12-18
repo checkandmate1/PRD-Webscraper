@@ -1,4 +1,6 @@
-"Little project I've worked on to learn web scraping, and what better way to do it than to check some routes! Thank you to the Virtual New York ARTCC (nyartcc.org) for providing their preferred route database! You just input a departure airport, an arrival airport, and a route, and it will validate it. I am currently working on a better way to print the routes, so for the time being, this is an example print you will see:
+"Little project I've worked on to learn web scraping, and what better way to do it than to check some routes! 
+Thank you to the Virtual New York ARTCC (nyartcc.org) for providing their preferred route database! 
+You just input a departure airport, an arrival airport, and a route, and it will validate it. I am currently working on a better way to print the routes, so for the time being, this is an example print you will see:
 
 {JFK MERIT ORW ORW# BOS 110-FL210 TURBOJET NON-RNAV ZNY ZBW}
 
