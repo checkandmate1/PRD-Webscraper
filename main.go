@@ -1,4 +1,4 @@
-package prdwebscraper
+package main
 
 import (
 	"bufio"
